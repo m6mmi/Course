@@ -1,0 +1,44 @@
+1. From Basics Class 5 tasks pick up: Anagrams, century, play_with_words, vowels and if not yet done,
+   convert them to functional code and test it using the code from today.
+   Use any method you feel is the best for the case (parametrize or conftest or just variables)
+
+   *While converting the code to funcitonal, don't forget to use if __name__ == "__main__"
+
+2.
+# Function
+def fibonacci(n):
+    if n <= 1:
+        return n
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+
+# Function
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+# Function
+def calculator(operator, a, b):
+    if operator == '+':
+        return a + b
+    elif operator == '-':
+        return a - b
+    elif operator == '*':
+        return a * b
+    elif operator == '/':
+        if b == 0:
+            raise ValueError("Cannot divide by zero.")
+        return a / b
+    else:
+        raise ValueError("Invalid operator.")
+
+# Function
+def is_prime(n):
+    if n < 2:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True

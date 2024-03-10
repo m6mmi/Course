@@ -1,0 +1,7 @@
+1. Calculator to calculate area of the rectangle. area = length x width
+2. This algebra monster, equation to solve a3 – b3, formula: (a – b)(a2 + ab + b2)
+3. Area of Circle π × r2
+4. This equation x2 + y2 + z2 – 3xyz formula: (x + y + z)(x2 + y2 + z2 – xy – yz -xz)
+5. Complete every task into a separate file, with user input asking user to enter variables eg.(a,b,r, x,y,z)
+6. Output the answer with a text and a value eg
+7. print("Total of these two numbers is:", total)

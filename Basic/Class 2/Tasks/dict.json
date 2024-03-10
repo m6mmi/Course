@@ -1,0 +1,41 @@
+{
+    "first_name": "Janek",
+    "last_name": "Sitsmann",
+    "age": 38,
+    "married": true,
+    "address": [
+        {
+            "country": "Estonia",
+            "county": "J\u00f5gevamaa",
+            "street": "M\u00e4nni",
+            "index": "48103"
+        }
+    ],
+    "family": [
+        {
+            "name": "Riina",
+            "age": 34,
+            "married": true
+        },
+        {
+            "name": "Elis",
+            "age": 13,
+            "married": false
+        },
+        {
+            "name": "Maiken",
+            "age": 7,
+            "married": false
+        }
+    ],
+    "pets": [
+        {
+            "type": "cat",
+            "name": "Mia"
+        },
+        {
+            "type": "dog",
+            "name": "Sweety"
+        }
+    ]
+}

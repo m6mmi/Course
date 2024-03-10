@@ -1,0 +1,5 @@
+print(type(1))
+print(type(True))
+print(type(('Here some text.')))
+print(type(None))
+print(type(1.2345))

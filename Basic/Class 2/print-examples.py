@@ -1,0 +1,7 @@
+print('This Text')
+print('This Number', 5, 9)
+print('This Number', 5, 9, sep=", ", )
+print('This Number', 5, 9, sep=", ", end='. ')
+print('This Number', 5, 9, sep=", ", end='. ')
+print('This Number', 5, 9, sep=", ", end='.\n\n')
+print('This Number', 5, 9, sep=", ", end='. ')

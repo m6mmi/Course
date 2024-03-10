@@ -1,0 +1,3 @@
+name, surname, age, potatos
+Janek, Sitsmann, 38, 7
+Riina, Sitsmann, 34, 89

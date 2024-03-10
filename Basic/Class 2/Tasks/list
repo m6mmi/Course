@@ -1,0 +1,6 @@
+Write a program that would ask user to input text after the text is entered the print an output of how long the entered text is.
+Write a program that would ask user to input text and print the amount of times the first character of user entered text is repeated.
+Write a program that would ask user to input text split the received text in half and print first part normally and a second part reversed to output.
+Create a list with 5 names in it. Append one name, insert one name at the start of the list, sort and reverse the list. Print out the indexes of these added names.
+Create a dictionary describing you in as much detail as possible(no bank accounts, but you get the idea). Make sure to start from basic key: value pairs and go to deep nesting where value would be at least a list of dictionaries.
+After you will feel like you are done with the dictionary, through out the week every time you will feel like you can add something, use mutation methods to add new or adjust dictionary records  instead of editing initial object.

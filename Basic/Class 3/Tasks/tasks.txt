@@ -1,0 +1,56 @@
+1. Cats - Write a program that will correctly display the sentence "Alice has x cats" depending on the number of cats, it can show: Alice has 1 cat, Alice has 2 cats, Alice has 10 cats. use user input to get amount of cats. ** After number 20 entered, the output should be "Alice has a cat shelter"
+Play with words - Write a program that will display the given sentence every third character will be capitalized and every fourth character will have an exclamation mark after it.
+      For example from
+2. Cupcake ipsum dolor sit amet. I love caramels topping soufflé I love
+to
+CuPc!aKe !IpsUm Do!lOr !Sit amEt!. I !LovE cAr!aMel!S tOppIn!g so!UffLé I !lOve!.
+Try to iterate through every character in the text, by noting that the string is a list of characters. Test indexes of this list if it divides by 3 or 4 cleanly(no values after the dot) to get the every third and every fourth character. Using text generators like this: https://cupcakeipsum.com/ Get a text and just assign it to a string variable in the program.
+FOR example: 6 % 3 = 0, 5 % 3 != 0, 8 % 4 = 0, 7 % 4 !== 0   https://www.w3schools.com/python/trypython.asp?filename=demo_oper_floordiv
+3. Vowels - Write a program that will determine the number of vowels in a given string. vowels = ['a', 'e', 'i', 'o', 'u'] Using text generators like this: https://cupcakeipsum.com/ Get a text and just assign it to a string variable in the program.
+4. Calculator 2.0 - Create a calculator that would ask user for first number, action, second number, than do the action, display the result, ask user if he would like to do more actions: if yes, start the program again. if no, terminate the program. (Calculator should handle at least +-/*)
+5. BMI - Write program that calculates body mass index (bmi = weight / (height*height)). Weight(kg) and height(meters) would be passed by user input.
+if bmi <= 18.5 print "Underweight"
+if bmi <= 25.0 print "Normal"
+if bmi <= 30.0 print "Overweight"
+if bmi > 30 print "Obese"
+6. Century - Introduction The first century spans from the year 1 up to and including the year 100, the second century - from the year 101 up to and including the year 200, etc. Task Given a year, print the century it is in. The year would be passed by user input
+7. Register users - Write a program where when it starts user is given a couple of options:  [Register new user, Display users, Q for close the program]
+if register new user is selected ask user some basic information: name, age, city, amount of potatoes consumed yesterday. Append that data to users list, print thanks to user and return to main menu asking user for his action.
+if Display users is selected print the data about each user where every line would look like this:
+The participant {name}, aged {age} years old, coming from {city} have destroyed {amount_of_potatoes} potatoes yesterday.
+if Q for close the program selected, close the program.
+8. Tree - Using print statements form a tree in the console output. This kind of result:
+    *
+   ***
+  *****
+ *******
+*********
+9. EvenOdd - Write a Python program to count the number of even and odd numbers in a series of numbers:
+Sample numbers : numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+Expected Output :
+Number of even numbers : 5
+Number of odd numbers : 4
+10. Numeric - Write a Python program that accepts a string and calculates the number of digits and letters. Use this to help to understand if character is numeric: https://www.w3schools.com/python/ref_string_isnumeric.asp
+Sample Data : Python 3.2
+Expected Output :
+Letters 6
+Digits 2
+11. Dog Years - Write a Python program to calculate a dog's age in dog years. Note: For the first two years, a dog year is equal to 10.5 human years. After that, each dog year equals 4 human years.
+12. Days - Write a Python program to convert a month name to a number of days.
+Expected Output:
+List of months: January, February, March, April, May, June, July, August
+, September, October, November, December
+
+Input the name of Month: February
+No. of days: 28/29 days
+13. Time of day - Write a program to based on current time of day would return a word Morning, Day, Evening or Night.
+Expected Output:
+Input time in 24 hour format: 13
+Day
+hint: use datetime library. To get current time you will need to
+from datetime import datetime
+current_hour = datetime.now().hour
+ (edited)
+Cupcake IpsumCupcake Ipsum
+Cupcake Ipsum - Sugar-coated Lorem Ipsum Generator
+Awesomeness! First lorem ipsum generator that can be addictive

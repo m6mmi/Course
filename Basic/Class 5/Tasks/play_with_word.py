@@ -1,6 +1,6 @@
 text = "Cupcake ipsum dolor sit amet. I love caramels topping soufflé I love"
 
-text_list =  enumerate(text)
+text_list = enumerate(text)
 final_string = ""
 
 for index, char in text_list:

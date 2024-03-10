@@ -2,13 +2,13 @@
    convert them to functional code and test it using the code from today.
    Use any method you feel is the best for the case (parametrize or conftest or just variables)
 
-   *While converting the code to funcitonal, don't forget to use if __name__ == "__main__"
+   *While converting the code to functional, remember to use if __name__ == "__main__"
 
 2.
 # Function
 def fibonacci(n):
     if n <= 1:
-        return n
+        return 
     else:
         return fibonacci(n-1) + fibonacci(n-2)
 

@@ -5,7 +5,6 @@ import os      # Module for interacting with the operating system
 # Define the filename for storing entries
 file_name = "entries.txt"
 
-
 # Define the Entry class to represent individual entries
 class Entry:
     def __init__(self, id, name='', age='', city='', potato_count=''):
@@ -80,6 +79,7 @@ with codecs.open(file_name, "r+", "utf-8") as f:
         for record in records:
             line = record.strip().split(",")
             entries.append(Entry(line[0], line[1], line[2], line[3], line[4]))
+
 
 # Set the id_counter to the last id in the file
 id_counter = int(line[0])

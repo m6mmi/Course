@@ -13,5 +13,14 @@ def prepare_data(file):
     return result_list
 
 
+def filter_underage(people_list):
+    for index, person in enumerate(people_list):
+        if int(person['age']) < 18:
+            people_list.pop(index)
+
+    return people_list
+
+
 with open('real.csv', 'r') as f:
-    print(prepare_data(f))
+    list = prepare_data(f)
+    print(filter_underage(list))

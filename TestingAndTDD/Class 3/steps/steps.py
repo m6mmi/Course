@@ -30,14 +30,14 @@ temp_dict = {}
 count = {}
 # Iterate through a list and use grade as key and distance as value
 for key, value in out_list:
-    # count how many times grades are present. If key is already in the list, then add +1
+    # Count how many times grades are present. If key is already in the list, then add +1
     count[key] = count.get(key, 0) + 1
     # For each key, add distance as value. If key(grade) is already in the dictionary, then add to existing value
     temp_dict[key] = temp_dict.get(key, 0) + value
 
 # Create a final list from dictionary's created before
 final_list = [[key, count[key], temp_dict[key]] for key in temp_dict]
-print(final_list)
+# print(final_list)
 
 # Create a new file and write a list in to it line by line
 with open('u1results.txt', 'w') as f:

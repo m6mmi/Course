@@ -7,4 +7,4 @@ data = fns.read_file("u1.txt")
 processed_data = fns.process_data(data)
 
 # Write data to file
-fns.write_data("u1.results.txt", processed_data)
+fns.write_data("u1results.txt", processed_data)

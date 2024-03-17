@@ -41,9 +41,9 @@ def process_data(input_list):
     return [[key, count[key], temp_dict[key]] for key in temp_dict]
 
 
-def write_data(clean_data):
+def write_data(out_file_name, clean_data):
     # Create a new file and write a list in to it line by line
-    with open('u1results.txt', 'w') as f:
+    with open(out_file_name, 'w') as f:
         for i in clean_data:
             f.write(f'{str(i[0])} {str(i[1])} {str(i[2])}\n')
 
@@ -51,4 +51,4 @@ def write_data(clean_data):
 if __name__ == "__main__":
     data = (read_file("u1.txt"))
     processed_data = process_data(data)
-    write_data(processed_data)
+    write_data("u1.results.txt", processed_data)

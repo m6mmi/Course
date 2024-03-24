@@ -16,8 +16,9 @@ from datetime import datetime
 #
 # say_something()
 
-""" Decorator with parameters """
+
 def run_only_between(from_=7, to_=22):
+    """ Decorator with parameters """
     def dec(func):
         def wrapper(*args, **kwargs):
             if from_ <= datetime.now().hour < to_:
